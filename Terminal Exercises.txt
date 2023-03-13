@@ -1,0 +1,28 @@
+﻿1 mkdir first
+2 cd first
+3 touch person.txt
+4 mv person.txt another.txt
+5 cp another.txt copy.txt
+6 rm copy.txt
+7 cp -r first second
+8 rm -rf second
+
+
+Part 2
+1 man stands for manual. You can use man man to get all commands, or man command for a manual for an argument. man rm will remove a specified file. Press q to backout.
+
+
+2 man ls lists information about files in the current directory. 
+man -l shows all files with more details such as last modified time        
+man -a shows all files and folders in current directory including hidden ones, which will be prefixed with a .
+
+
+3 use control + arrow keys to jump between words.
+4 use control + e
+5 use control + a
+6 use control + delete
+7 a terminal acts like a console, whereas a shell actually executes and interprets commands. 
+8 an absolute path starts  at root and ends in destination file/folder
+9 a relative path starts at the workspace and ends in destination file/folder
+10 flags add more information to a command, -a(all) , -l(long list format), and -r
+11 r will remove folders, f will force removal.
